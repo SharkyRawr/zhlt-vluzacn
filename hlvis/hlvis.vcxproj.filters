@@ -2,22 +2,31 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{fa63ca73-d52e-4403-b61e-78b2094b9a49}</UniqueIdentifier>
+      <UniqueIdentifier>{99290938-bd5e-4582-b578-ce6890f516b3}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
     </Filter>
     <Filter Include="Source Files\common">
-      <UniqueIdentifier>{03feec92-a451-440f-9819-099c78f94bd4}</UniqueIdentifier>
+      <UniqueIdentifier>{bc84e69e-8e10-45a8-80cf-38edf5f5e5ad}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{ae1a5973-32d3-4d83-bbd9-44b2d416ca7a}</UniqueIdentifier>
+      <UniqueIdentifier>{f075dd4c-dd92-4d39-be25-4ffd4f69464d}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{a270be60-5229-4d76-aded-9b909ed08a6c}</UniqueIdentifier>
+      <UniqueIdentifier>{312e20f0-b53c-4a72-8213-cbba67ea3359}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="flow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\common\blockmem.cpp">
       <Filter>Source Files\common</Filter>
     </ClCompile>
@@ -51,20 +60,8 @@
     <ClCompile Include="..\common\winding.cpp">
       <Filter>Source Files\common</Filter>
     </ClCompile>
-    <ClCompile Include="flow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="vis.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="zones.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Program Files\Microsoft Visual Studio\VC98\Include\BASETSD.H">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\template\basictypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
